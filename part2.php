@@ -32,7 +32,7 @@
         /*
             we can use arrays in PHP as well, here the arrays are actually similar to python lists,
             they are very flexible just like python lists, and you can change each element,
-            also, you can add elements just as simple as,
+            also, you can add elements just as simple as,                                                                    
             $friend[4] = "something" <--- if the friend array initially contained 3 elements.
         */
             $friends = array("Kevin", true, 43.43, "Oscar");
@@ -51,4 +51,4 @@
             echo "Password is $password <br>";
         ?>
     </body>
-</html>
+</html>   
