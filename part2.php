@@ -34,16 +34,30 @@
             they are very flexible just like python lists, and you can change each element,
             also, you can add elements just as simple as,                                                                    
             $friend[4] = "something" <--- if the friend array initially contained 3 elements.
+            
+            and we can create a constant valued array of desired length using the following function:
+            array_fill((int: start index),(int: number of elements),(value to be put));
+            
+            example:
+            <?php
+            $a = array_fill(5, 2, "bosecodes" );
+            print_r($a);
+            ?>
+            
+            the output of above code will be:
+            Array
+            (
+           [5]  => "bosecodes"
+           [6]  => "bosecodes"
+
+            )
         */
             $friends = array("Kevin", true, 43.43, "Oscar");
             $friends[2] = "Dwayne";
             $friends[4] = "Angela";
-            echo $friends[2];
-            echo "<br>";
-            echo $friends[4];
-            echo "<br>";
-            echo count($friends);
-            echo "<br>";
+            echo $friends[2]."<br>";
+            echo $friends[4]."<br>";
+            echo count($friends)."<br>";
             
             echo "Roses are $color <br>";
             echo "$plural are blue <br>";
